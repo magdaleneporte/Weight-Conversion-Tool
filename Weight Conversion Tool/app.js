@@ -18,7 +18,7 @@ form.addEventListener('submit', function(e){
     const input = document.querySelector('input');
     let results = document.querySelector('span');
     let poundsToKG;
-
+-----------------
     if ((input.value <= 0) || (isNaN(input.value))){
         results.classList.add('error');
         results.innerHTML = "<p>Please enter a value number!</p>"
@@ -42,4 +42,5 @@ form.addEventListener('submit', function(e){
     
     
 })
+
 
